@@ -11,9 +11,10 @@ public class SpringGayaApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(SpringGayaApplication.class, args);
 	}
-	@GetMapping("/gayaweb")
+	
+	@GetMapping("/hello")
 	public String getGayatri() {
-		return " hello gayathri how";
+		return " hello from springboot";
 	}
 
 }
