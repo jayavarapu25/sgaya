@@ -1,6 +1,6 @@
 FROM openjdk:17
-MAINTAINER "Nageswara"
+MAINTAINER "Gayathri"
 COPY target/spring-gaya-0.0.1-SNAPSHOT.jar  /usr/app/
 WORKDIR /usr/app/
-EXPOSE 8081
+EXPOSE 8080
 ENTRYPOINT ["java", "-jar", "spring-gaya-0.0.1-SNAPSHOT.jar"]
