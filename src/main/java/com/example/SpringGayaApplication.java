@@ -13,7 +13,7 @@ public class SpringGayaApplication {
 	}
 	@GetMapping("/gayaweb")
 	public String getGayatri() {
-		return " hello gayathri";
+		return " hello gayathri how";
 	}
 
 }
